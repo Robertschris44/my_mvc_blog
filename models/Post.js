@@ -17,8 +17,7 @@ Post.init(
         title: {
             type: DataTypes.STRING,
             allowNull: false,
-            primaryKey: true,
-            autoIncrement: true
+            primaryKey: true
         },
         content:{
             type: DataTypes.TEXT,
