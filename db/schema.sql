@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS my_mvc_db;
+CREATE DATABASE my_mvc_db;
