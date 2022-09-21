@@ -9,5 +9,23 @@
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
     "sequelize": "^6.23.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "my_mvc_blog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertschris44/my_mvc_blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robertschris44/my_mvc_blog/issues"
+  },
+  "homepage": "https://github.com/Robertschris44/my_mvc_blog#readme",
+  "keywords": []
 }
