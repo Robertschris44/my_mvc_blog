@@ -1,0 +1,17 @@
+<section>
+<div>
+    <a href="/dashboard/create/"><button>create post</button></a>
+    <h2>Dashboard: {{user}}</h2>
+    {{#if posts.length}}
+</div>
+</section>
+
+<section>
+    {{#each posts as |post|}}
+
+<a href="/dashboard/edit/{{post.id}}"><button>edit post</button></a>
+{{/each}}
+</section>
+{{/if}}
+
+<script src="/public/javascript/add-post.js"></script>
