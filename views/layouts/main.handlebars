@@ -28,7 +28,16 @@
             {{{body}}}
         </main>
         <footer>
-            Made by Chris
+            <div>
+                <nav>
+                    <a href="/">Homepage</a>{{#if loggedIn}} |
+                    <a href="/dashboard/">dashboard</a> |
+                    <a href="/dashboard/create/">create post</a>
+                    {{else}}
+                    <a href="/login/">login</a>
+                    {{/if}}
+                </nav>
+            </div>
         </footer>
     </div>
 
@@ -37,8 +46,9 @@
 
 
     {{#if loggedIn}}
-    <script src="/public/javascript/logout.js"></script>
+    <script src="/javascript/logout.js"></script>
     {{/if}}
-    <script src="/public/javascript/logout.js"></script>
+    <script src="/javascript/dashboard.js"></script>
+
 </body>
 </html>
